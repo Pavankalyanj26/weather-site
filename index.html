@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather</title>
+    <link rel="stylesheet" href="./s1.css">
+</head>
+<body>
+    <center><h1>My Weather</h1></center>
+    <div id="header">
+        <input type="text" placeholder="Enter your city name " id="EnteredCity"> 
+        <button onclick="result() " id="searchButton"  >Search</button>
+    </div>
+    <div class="one" >
+      <!-- Display current data   -->
+      <p id="dis"  ></p>
+      <!-- Display extra attributes of the current day -->
+      <nav id="atr" ></nav
+    </div>
+    <div class="day-box"  >
+
+    </div>
+    <!-- forecast day data -->
+    <span id="foreadjust">
+      <!-- Past day data  -->
+      <div id="past-days" class="text"></div> 
+      <!-- Present day data -->
+      <div id="today" class="text"></div> 
+      <!-- Future day date  -->
+      <div id="future-days" class="text"></div> 
+    </span>
+    <!-- <h3>Next 6 Hours Forecast:</h3> -->
+    <div id="night" ></div>
+    <!-- sideline running to show the astro data  -->
+    <div id="marq" ></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js.js" ></script>
+</body>
+</html>
