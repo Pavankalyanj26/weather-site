@@ -3,7 +3,8 @@
 **My Weather** is a sleek, responsive weather forecasting web application that provides real-time data using public Weather APIs. Built with core frontend technologies like **HTML, CSS, JavaScript**, and **JSON**, it delivers accurate forecasts, hourly breakdowns, and comprehensive climate details including wind stats, humidity, pressure, and celestial timings.
 
 > 🔗 **Live Demo:** [Click to Open My Weather](https://pavankalyanj26.github.io/weather-site/)
-> 🔗 ** OutPut Demo:** [Project Demo](screenshot.png)
+> 
+> 🔗 **OutPut Demo:** [Project Demo](screenshot.png)
 
 ---
 
